@@ -1,29 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студія</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <a href="/index.html" class="loggo"><span>Web</span>Studio</a>
-            <ul>
-            <li><a href="#">Студія</a></li>
-            <li><a href="#">Портфоліо</a></li>
-            <li><a href="#">Контакти</a></li>
-            </ul>
-        </nav>
-         <ul>
-            <li><a href="maito:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel.:+38 096 111 11 11">+38 096 111 11 11</a></li>
-         </ul>
-         <main>
-             <h1>Ефективні рішення для вашого бізнесу</h1> 
-                <button type="button">Замовити послугу</button>
-        </main>
+      <!--навигация-->
+      <nav>
+        <a href="/index.html" class="nav-link" lang="en"><span>Web</span>Studio</a>
+        <ul>
+          <li><a href="#">Студія</a></li>
+          <li><a href="#">Портфоліо</a></li>
+          <li><a href="#">Контакти</a></li>
+        </ul>
+      </nav>
+
+      <!--контакты-->
+      <ul>
+        <li><a href="maito:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a href="tel.:+380961111111">+38 096 111 11 11</a></li>
+      </ul>
     </header>
-</body>
+
+    <!--шапка (исправить заголоски и сделать классы)-->
+    <main>
+      <h1>Ефективні рішення для вашого бізнесу</h1>
+      <button type="button">Замовити послугу</button>
+
+      <!--особенности-->
+      <h4 hidden>Ocoливості</h4>
+
+      <ul>
+        <li>
+          <h5>УВАГА ДО ДЕТАЛЕЙ</h5>
+          <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+        </li>
+        <li>
+          <h5>ПУНКТУАЛЬНІСТЬ</h5>
+          <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+        </li>
+        <li>
+          <h5>ПЛАНУВАННЯ</h5>
+          <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+        </li>
+        <li>
+          <h5>СУЧАСНІ ТЕХНОЛОГІЇ</h5>
+          <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+        </li>
+      </ul>
+      <!--род деятельности-->
+      <section>
+        <h2>Чим ми займаємося</h2>
+        <ul>
+          <li>
+            <img src="/images/box1.jpg" alt="десктопні додатки" width="370" />
+          </li>
+          <li>
+            <img src="/images/box2.jpg" alt="мобільні додатки" width="370" />
+          </li>
+          <li>
+            <img src="/images/box3.jpg" alt="дизайнерські рішення" width="370" />
+          </li>
+        </ul>
+      </section>
+
+      <!--команда-->
+      <section>
+        <h3>Наша команда</h3>
+
+        <ul>
+          <li>
+            <img src="./images/team_member/Ihor.jpg" alt="фото Ігора Дем'яненко" width="270" />
+            <h6>Ігор Дем'яненко</h6>
+            <p lang="en">Product Designer</p>
+          </li>
+          <li>
+            <img src="/images/team_member/Olha.jpg" alt="фото Ольги Рєпіної" width="270" />
+            <h6>Ольга Рєпіна</h6>
+            <p lang="en">Frontend Developer</p>
+          </li>
+          <li>
+            <img src="./images/team_member/Mikola.jpg" alt="фото Миколи Тарасова" width="270" />
+            <h6>Микола Тарасов</h6>
+            <p lang="en">Marketing</p>
+          </li>
+          <li>
+            <img src="./images/team_member/Michael.jpg" alt="фото Михайло Єрмакова" width="270" />
+            <h6>Михайло Єрмаков</h6>
+            <p lang="en">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!--Футер-->
+    <footer>
+      <a href="/index.html" class="nav-link" lang="en"><span>Web</span>Studio</a>
+      <address>
+        <ul>
+          <li>м. Київ, пр-т Лесі Українки, 26</li>
+          <li><a href="maito:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel.:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+      </address>
+    </footer>
+  </body>
 </html>
